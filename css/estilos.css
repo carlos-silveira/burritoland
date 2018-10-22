@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Poppins|Roboto');
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+h1#headerh1{
+font-family: 'Indie Flower', cursive;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Poppins', sans-serif;
+
+}
+header{
+  background-color: #EF271B;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+header > h1{
+color:white;
+width: 20%;
+margin-left: 10%;
+float: left;
+line-height: 2;
+}
+header > nav {
+  width: 50%;
+  margin-left: 20%;
+  display: inline-block;
+}
+header > nav > ul > li {
+  width: 20%;
+  display: inline-block;
+  margin-left: -4px;
+  margin-top: 5px;
+  list-style: none;
+  line-height: 2;
+  text-align: center;
+}
+header > nav > ul > li > a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+section{
+  min-height: 100vh;
+}
+/* section#inicio{
+height: 90vh;
+background-color: black;
+background-image: url(../imgs/inicio.jpg);
+background-size: 100% 100%;
+padding-top: 70px;
+} */
+.parallax-window {
+	min-height:100vh;
+	background: transparent;
+}
+section#inicio > h2 {
+text-align: center;
+color: white;
+font-size: 5rem;
+/* text-transform: uppercase; */
+margin-top: 40vh;
+float: left;
+width: 100%;
+text-shadow: 4px 3px 5px rgba(0,0,0,0.69);
+
+}
+section#inicio>h3{
+  color: red;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/* section#inicio >a.comprar{
+  color:white;
+  font-size: 1.3rem;
+  display: block;
+  width: 200px;
+  height: 30px;
+  text-decoration: none;
+  border:2px solid white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3px;
+} */
+
+section#inicio >a:last-child{
+  color:white;
+  font-size: 5rem;
+  text-align: center;
+  display: block;
+  width: 100%;
+padding-top: 20vh;
+text-shadow: 4px 3px 5px rgba(0,0,0,0.69);
+
+}
+section#menu > h1{
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+  font-size: 3rem;
+  text-align: center;
+}
+.producto{
+  width: 21.875%;
+  margin-left: 2.5%;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  min-height: 25vh;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+
+}
+.producto>img{
+  margin-top: 3%;
+  width: 90%;
+  height: 65%;
+  border-radius: 10px;
+}
+.producto>a{
+  background-color: #ff0000;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  line-height: 3;
+
+}
+.producto > .anim{
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  margin-top: -250px;
+  height: 250px;
+}
+
+.vermenu{
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
+  display: block;
+  float: left;
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+margin-top: 1.6vh;
+  line-height: 3;
+}
+section#ofertas{
+  background-color: red;
+}
+section#ofertas> h2#titulo{
+ text-align: center;
+  font-size: 6vh;
+padding-top: 10vh;
+  color: white;
+}
+section#ofertas> h3#subtitulo{
+ text-align: center;
+  font-size: 3vh;
+  padding-bottom: 2vh;
+  color: orange;
+}
+.oferta{
+  width: 30%;
+  margin-left: 13.33%;
+  float: left;
+  margin-top: 1%;
+  text-align: center;
+  overflow: hidden;
+}
+.oferta>img{
+  width: 70%;
+  height: 70%;
+  margin:8%;
+border-radius: 50%;
+
+}
+.oferta>img:hover{
+ transform: scale(1.2);
+
+}
+.oferta>h2{
+  height: 5%;
+  background-color: #ff0000;
+  text-decoration: none;
+  color: green;
+  font-size: 2rem;
+  border-radius: 10px;
+
+
+}
+.oferta>h3{
+    color: white;
+    font-size: 2rem;
+  height: 5%;
+}
+section#nosotros .historia{
+  width: 48%;
+  height: 100%;
+  padding: 1%;
+  float: left;
+}
+section#nosotros .historia>h1{
+  font-size: 3rem;
+  color: red;
+font-family: 'Pacifico', cursive;
+padding: 2%;
+}
+section#nosotros .historia>p{
+  font-size: 1.5rem;
+  margin-top: 10%;
+  text-align: justify;
+
+}
+section#nosotros .galeria{
+  width: 48%;
+  height: 100%;
+  float: left;
+}
+section#nosotros .galeria>img{
+width: 80%;
+height: 80%;
+display: block;
+border-radius: 90%;
+padding: 5%;
+
+}
+
+section#contacto {
+
+  height: 100vh;
+}
+section#contacto > h3 {
+  color:white;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 4px 3px 5px rgba(0,0,0,0.69);
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+}
+section#contacto .formulario{
+  width: 48%;
+  padding: 1%;
+  float: left;
+}
+section#contacto .mapa{
+  width: 48%;
+  float: left;
+}
+section#contacto .mapa iframe {
+border-radius: 25%;
+}
+section#contacto .formulario form{
+  padding: 10px;
+    color:white;
+}
+section#contacto .formulario form h3{
+    color:white;
+  font-size: 2rem;
+}
+section#contacto .formulario form fieldset{
+  margin-top: 2vh;
+  border: none;
+}
+section#contacto .formulario form fieldset label{
+  display: block;
+  width: 100%;
+}
+section#contacto .formulario form fieldset input[type="text"]{
+  height: 2.2vh;
+}
+section#contacto .formulario form fieldset input[type="text"],
+section#contacto .formulario form fieldset textarea {
+  display: block;
+  width: 80%;
+  border: none;
+  background-color: white;
+  color:red;
+  outline-color: red;
+}
+section#contacto .formulario form fieldset textarea{
+  height: 200px;
+  resize:none;
+}
+section#contacto .formulario form fieldset input[type="submit"]{
+  background-color: red;
+  color:white;
+  font-size: 1rem;
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+  border: none;
+}
